@@ -1,5 +1,5 @@
 body{
-    background-color:
+    background-color:#202024;
     margin: 0;
     padding: 0;
 
@@ -51,45 +51,109 @@ a{
 }
 
 .articulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     padding:3em  0 0 0;
 }
 
 #cajas {
-    background-color: #42424f;
-    width:450px;
+    background-color: #2c2c32;
+    width:350px;
     height:auto;
-    border-radius:0.5em; 
-
+    border-radius:0.25em;
+    margin: 1em;
 }
 
 #cajas h3{
     text-align: center;
+    color: #ffffffff;
+    font-weight: bold;
     
 }
 
 #cajas p{
-    text-align: center
+    text-align: center;
+    font-weight: 100;
+    color: #b9b9bb;
 }
 
 img{
     width: 100%;
     margin:auto;
-    border-radius:0.5em 0.5em 0 0; 
+    border-radius:0.25em 0.25em 0 0; 
     
 }
 
 #btn1{
-    width: 320px;
+    width: 290px;
     height: 40px;
-    margin:15px 25px 10px 60px;
+    margin:15px 25px 10px 25px;
     text-align: center;
     border-radius: 0.5em;
     border-bottom-color: aqua;
     color:white;
-    background-color: aqua;
+    background-color: #82cec6;
+}
+
+#btn6{
+    width: 290px;
+    height: 40px;
+    margin:15px 25px 10px 25px;
+    text-align: center;
+    border-radius: 0.5em;
+    border-bottom-color: aqua;
+    color:white;
+    background-color: #82cec6;
+}
+
+#btn2{
+    width: 290px;
+    height: 40px;
+    margin:15px 25px 10px 25px;
+    text-align: center;
+    border-radius: 0.5em;
+    border-bottom-color: aqua;
+    color:white;
+    background-color: #82cec6;
+}
+
+#btn4{
+    width: 290px;
+    height: 40px;
+    margin:15px 25px 10px 25px;
+    text-align: center;
+    border-radius: 0.5em;
+    border-bottom-color: aqua;
+    color:white;
+    background-color: #82cec6;
+}
+
+#btn3{
+    width: 290px;
+    height: 40px;
+    margin:15px 25px 10px 25px;
+    text-align: center;
+    border-radius: 0.5em;
+    border-bottom-color: aqua;
+    color:white;
+    background-color: #82cec6;
+}
+
+#btn5{
+    width: 290px;
+    height: 40px;
+    margin:15px 25px 10px 25px;
+    text-align: center;
+    border-radius: 0.5em;
+    border-bottom-color: aqua;
+    color:white;
+    background-color: #82cec6;
 }
 
 footer{
     color: brown;
+    background-color: 
 }
 
