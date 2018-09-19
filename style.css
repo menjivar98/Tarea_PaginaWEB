@@ -61,7 +61,7 @@ a{
 #cajas {
     background-color: #2c2c32;
     width:350px;
-    height:auto;
+    height:500px;
     border-radius:0.25em;
     margin: 1em;
 }
@@ -77,6 +77,7 @@ a{
     text-align: center;
     font-weight: 100;
     color: #b9b9bb;
+    
 }
 
 img{
@@ -95,6 +96,7 @@ img{
     border-bottom-color: aqua;
     color:white;
     background-color: #82cec6;
+    border:none;
 }
 
 #btn6{
@@ -106,6 +108,7 @@ img{
     border-bottom-color: aqua;
     color:white;
     background-color: #82cec6;
+    border: none;
 }
 
 #btn2{
@@ -114,9 +117,10 @@ img{
     margin:15px 25px 10px 25px;
     text-align: center;
     border-radius: 0.5em;
-    border-bottom-color: aqua;
+    border-bottom-color: #9d7ed0;
     color:white;
-    background-color: #82cec6;
+    background-color: #9d7ed0;
+    border:none;
 }
 
 #btn4{
@@ -125,9 +129,10 @@ img{
     margin:15px 25px 10px 25px;
     text-align: center;
     border-radius: 0.5em;
-    border-bottom-color: aqua;
+    border-bottom-color: #9d7ed0;
     color:white;
-    background-color: #82cec6;
+    background-color: #9d7ed0;
+    border:none;
 }
 
 #btn3{
@@ -136,9 +141,10 @@ img{
     margin:15px 25px 10px 25px;
     text-align: center;
     border-radius: 0.5em;
-    border-bottom-color: aqua;
+    border-bottom-color: #70c7be;
     color:white;
-    background-color: #82cec6;
+    background-color: #7f92cf;
+    border:none;
 }
 
 #btn5{
@@ -147,13 +153,74 @@ img{
     margin:15px 25px 10px 25px;
     text-align: center;
     border-radius: 0.5em;
-    border-bottom-color: aqua;
+    border-bottom-color: #70c7be;
     color:white;
-    background-color: #82cec6;
+    background-color: #7f92cf;
+    border:none;
 }
 
 footer{
-    color: brown;
-    background-color: 
+    color:white;
+    background-color:#1b1b1f;
+    text-align: center;
 }
+ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+li{
+    list-style-type: none;
+    padding: 1em;
+    border-radius:5em solid; 
+}
+
+i{
+    border: 2px solid whitesmoke;
+    border-radius:100%;
+    color: rgb(255, 255,255);
+    display: block;
+    height: 2.1em;
+    width: 2.1em;
+    white-space: nowrap;
+    padding-top: 1em;
+    margin: 0 auto 2em auto; 
+}
+
+i:hover{
+    border-color: rgb(207, 203, 203); 
+    background-color: rgb(207, 203, 203);
+}
+
+.botonF:hover{
+    border-color: rgb(207, 203, 203); 
+    background-color: rgb(207, 203, 203);
+}
+ #btn1:hover{
+    border-color: rgb(207, 203, 203); 
+    background-color: rgb(207, 203, 203);
+ }
+
+ #btn2:hover{
+    border-color: rgb(207, 203, 203); 
+    background-color: rgb(207, 203, 203);
+ }
+ #btn3:hover{
+    border-color: rgb(207, 203, 203); 
+    background-color: rgb(207, 203, 203);
+ }
+ #btn4:hover{
+    border-color: rgb(207, 203, 203); 
+    background-color: rgb(207, 203, 203);
+ }
+ #btn5:hover{
+    border-color: rgb(207, 203, 203); 
+    background-color: rgb(207, 203, 203);
+ }
+ #btn6:hover{
+    border-color: rgb(207, 203, 203); 
+    background-color: rgb(207, 203, 203);
+ }
 
