@@ -13,7 +13,7 @@ a{
 #alv {
     margin: 0;
     padding: 0;
-    background-image: url(imagenes/2.jpg);
+    background-image: url(imagenes/11.gif);
     height: 500px; /* Aqui le especificamos el alto de la imagen */
     background-position: center; /* Aqui para centrar la imagen */
     background-repeat: no-repeat; /* Y esto se utiliza para no que la imagen no ser repeta */
@@ -29,7 +29,8 @@ a{
 
 .botonF{
     background-image: url(imagenes/3.png);
-    background-position:center;
+    
+background-position:center;
     background-repeat: no-repeat;
     background-size:cover; 
     border: 1px solid #fff;
